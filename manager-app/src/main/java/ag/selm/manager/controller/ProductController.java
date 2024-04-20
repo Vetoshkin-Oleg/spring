@@ -19,9 +19,7 @@ import java.util.NoSuchElementException;
 @RequestMapping(("catalogue/products/{productId:\\d+}"))
 @RequiredArgsConstructor
 public class ProductController {
-
     private final ProductsRestClient productsRestClient;
-
     private final MessageSource messageSource;
 
     @ModelAttribute("product")
