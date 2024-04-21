@@ -16,7 +16,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 @RequiredArgsConstructor
 @RequestMapping("catalogue/products")
 public class ProductsController {
-
     private final ProductsRestClient productsRestClient;
 
     @GetMapping("list")

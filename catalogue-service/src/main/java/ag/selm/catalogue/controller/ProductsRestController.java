@@ -17,7 +17,6 @@ import java.util.Map;
 @RequiredArgsConstructor
 @RequestMapping("catalogue-api/products")
 public class ProductsRestController {
-
     private final ProductService productService;
 
     @GetMapping
